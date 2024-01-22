@@ -1,6 +1,6 @@
 #include<bits/stdc++.h>
 using namespace std;
-//What I did?
+//What I did? {multisorce bfs}
 //1)do multisource bfs for all monsters, so for all locations, we get the shortest distance from the nearest monster
 //2)then we do bfs for the A element all find the shortest distance of all the elments from A
 //3) If we can reach an exit point(any point on boundry) before a the closest monster, then we have an answer, otherwise no
