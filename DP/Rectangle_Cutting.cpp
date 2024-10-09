@@ -18,7 +18,7 @@ int main(){
 
     // cout<<solve(a,b);
 
-    vector<vector<int>> dp(a+1, vector<int>(b+1,INT_MAX));
+    vector<vector<int>> dp(a+1, vector<int>(b+1,INT_MAX));//dp[i][j] stores the min number of moves required to make a rectangle of dimensions ixj into all squares
     for(int i=0;i<=min(a,b);i++){
         dp[i][i] = 0;//since already a rectangle
     }
